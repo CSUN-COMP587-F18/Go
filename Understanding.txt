@@ -1,4 +1,4 @@
 What I have done so far is to try and better understand the Go language and looking at examples of test cases to see how they were done. 
 I know just the basics of the Go language so viewing test cases and source code has led to me understanding the language more. Multiple
-test cases in the folders makes it easier to see how test cases are done in this language.(Apparentley I never pushed into another one of my repositories 
+test cases in the folders makes it easier to see how test cases are done in this language.(Apparentley I pushed into another one of my repositories 
 by mistake).
