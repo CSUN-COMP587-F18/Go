@@ -1,0 +1,6 @@
+To better understand the Go lanuage I decided to look through the documentation as well as the source code of the language.
+What has helped is that there are various amounts of test cases and code that explains what its purpose is and what it is 
+suppose to do. One test case that has helped me is example_test.go. The purpose of it is to display the time and what the error
+was when it occured. The reason it helped me understand the language better was because it shows how to create a function, import classes,
+print messages, and return values. This may seem simple in another language but for someone who has barely ever used Go, it showed 
+me how to put things together.
