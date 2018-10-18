@@ -1,0 +1,9 @@
+What Ive Done
+- Learn basic Go
+- Installed Go Tools
+- Look through source code for examples
+
+Plan to do
+- Look at Go files relevant to my proposal
+- Run tests on those files
+-
