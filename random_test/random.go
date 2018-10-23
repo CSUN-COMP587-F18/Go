@@ -30,7 +30,6 @@ func performSort(size int){
 		//sorts the array
 		sort.Ints(list[:])	
 
-
 	   //Prints the sorted array
        //fmt.Println("Sorted",list)
 

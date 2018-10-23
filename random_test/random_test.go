@@ -1,9 +1,7 @@
 package main
 
 import (
-	
 	"testing"
-
 )
 
 //sorts array of 500 random values
