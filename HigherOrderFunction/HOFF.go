@@ -1,5 +1,7 @@
 package main
 
+import("fmt")
+
 
  /*A higher order function that  multilplies a number by itself 
  and then returns a function that returns the number divided by 2)
@@ -34,3 +36,23 @@ func DoubleAndHalf(x int) func() int {
 	  }
   }
 
+ //Another way to perform a higher order function 
+  func firstLastName(f func(string , string) string){
+
+	name := f("First","Last")
+	
+	fmt.Println(name)
+	
+	}
+
+	func main(){
+
+		fullName := func(f_name string, l_name string) string{
+
+			return "My name is " + f_name + " " + l_name
+		}
+		
+		firstLastName(fullName)
+
+
+	}
