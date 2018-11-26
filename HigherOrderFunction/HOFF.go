@@ -37,11 +37,11 @@ func DoubleAndHalf(x int) func() int {
   }
 
  //Another way to perform a higher order function 
-  func firstLastName(f func(string , string) string){
+  func firstLastName(f func(string , string) string) string{
 
 	name := f("First","Last")
 	
-	fmt.Println(name)
+	return name
 	
 	}
 
@@ -52,7 +52,7 @@ func DoubleAndHalf(x int) func() int {
 			return "My name is " + f_name + " " + l_name
 		}
 		
-		firstLastName(fullName)
+		fullString := firstLastName(fullName)
 
-
+		fmt.Println(fullString)
 	}

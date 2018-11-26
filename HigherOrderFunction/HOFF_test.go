@@ -13,7 +13,7 @@ they are being used properly.
 	func TestSum(t *testing.T) {
 
 		x := DoubleAndHalf(5)   //returns 12
-		y := HalfAndMultBy3(9)	// uses 4 returns 6	
+		y := HalfAndMultBy3(4)	//returns 6	
 
 		total := x() + y()
 
@@ -25,7 +25,7 @@ they are being used properly.
 	}
 
 
-//
+
 	func TestName(t *testing.T) {
 
 		tempName := "My name is First Last"
@@ -38,7 +38,7 @@ they are being used properly.
 		check := firstLastName(fullName)
 	
 		if check != tempName {
-			t.Errorf("Strings do not match.)
+			t.Errorf("Strings do not match.")
 		}
 	
 	}
