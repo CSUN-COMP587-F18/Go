@@ -1,0 +1,15 @@
+C:\Users\Alex\go\src\Errors>manbearpig -import errors -mutation ==
+2018/12/15 14:19:18 mutating in C:\Users\Alex\AppData\Local\Temp\manbearpig483662291
+2018/12/15 14:19:18 found 0 occurrence(s) of == in errors.go
+
+C:\Users\Alex\go\src\Errors>manbearpig -import errors -mutation !=
+2018/12/15 14:19:23 mutating in C:\Users\Alex\AppData\Local\Temp\manbearpig231608391
+2018/12/15 14:19:23 found 0 occurrence(s) of != in errors.go
+
+C:\Users\Alex\go\src\Errors>manbearpig -import errors -mutation 0
+2018/12/15 14:19:26 mutating in C:\Users\Alex\AppData\Local\Temp\manbearpig710058227
+2018/12/15 14:19:26 found 0 occurrence(s) of 0 in errors.go
+
+C:\Users\Alex\go\src\Errors>manbearpig -import errors -mutation empty
+2018/12/15 14:19:30 mutating in C:\Users\Alex\AppData\Local\Temp\manbearpig456901387
+2018/12/15 14:19:30 found 0 occurrence(s) of  in errors.go
