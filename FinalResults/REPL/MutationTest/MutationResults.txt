@@ -1,0 +1,29 @@
+C:\Users\Alex\go\src\REPL>manbearpig -import REPL -mutation ==
+2018/12/15 13:26:24 mutating in C:\Users\Alex\AppData\Local\Temp\manbearpig439713015
+2018/12/15 13:26:24 found 2 occurrence(s) of == in REPL.go
+2018/12/15 13:26:24 mutating == to !=
+2018/12/15 13:26:24 mutation 1 broke the tests properly
+2018/12/15 13:26:25 mutation 2 broke the tests properly
+2018/12/15 13:26:25 found 0 occurrence(s) of == in REPLtest.go
+
+C:\Users\Alex\go\src\REPL>manbearpig -import REPL -mutation !=
+2018/12/15 13:26:33 mutating in C:\Users\Alex\AppData\Local\Temp\manbearpig450649935
+2018/12/15 13:26:33 found 0 occurrence(s) of != in REPL.go
+2018/12/15 13:26:33 found 1 occurrence(s) of != in REPLtest.go
+2018/12/15 13:26:33 mutating != to ==
+2018/12/15 13:26:34 mutation 1 broke the tests properly
+
+C:\Users\Alex\go\src\REPL>manbearpig -import REPL -mutation 0
+2018/12/15 13:26:40 mutating in C:\Users\Alex\AppData\Local\Temp\manbearpig462312843
+2018/12/15 13:26:40 found 2 occurrence(s) of 0 in REPL.go
+2018/12/15 13:26:40 mutating 0 to 1
+2018/12/15 13:26:40 mutation 1 broke the tests properly
+2018/12/15 13:26:41 mutation 2 broke the tests properly
+2018/12/15 13:26:41 found 1 occurrence(s) of 0 in REPLtest.go
+2018/12/15 13:26:41 mutating 0 to 1
+2018/12/15 13:26:41 mutation 1 broke the tests properly
+
+C:\Users\Alex\go\src\REPL>manbearpig -import REPL -mutation empty
+2018/12/15 13:26:48 mutating in C:\Users\Alex\AppData\Local\Temp\manbearpig695403403
+2018/12/15 13:26:48 found 0 occurrence(s) of  in REPL.go
+2018/12/15 13:26:48 found 0 occurrence(s) of  in REPLtest.go
