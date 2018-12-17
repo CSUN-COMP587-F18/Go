@@ -1,0 +1,22 @@
+C:\Users\Alex\go\src\Syntax>Syntax -import higherorderfunc -mutation ==
+2018/12/14 18:14:51 mutating in C:\Users\Alex\AppData\Local\Temp\manbearpig316185487
+2018/12/14 18:14:51 found 0 occurrence(s) of == in syntax.go
+2018/12/14 18:14:51 found 0 occurrence(s) of == in syntaxtest.go
+
+C:\Users\Alex\go\src\Syntax>manbearpig -import Syntax -mutation !=
+2018/12/14 18:14:58 mutating in C:\Users\Alex\AppData\Local\Temp\manbearpig085676075
+2018/12/14 18:14:58 found 0 occurrence(s) of != in syntax.go
+2018/12/14 18:14:58 found 2 occurrence(s) of != in syntaxtest.go
+2018/12/14 18:14:58 mutating != to ==
+2018/12/14 18:14:59 mutation 1 broke the tests properly
+2018/12/14 18:14:59 mutation 2 broke the tests properly
+
+C:\Users\Alex\go\src\Syntax>manbearpig -import Syntax -mutation 0
+2018/12/14 18:15:10 mutating in C:\Users\Alex\AppData\Local\Temp\manbearpig302598487
+2018/12/14 18:15:10 found 0 occurrence(s) of 0 in syntax.go
+2018/12/14 18:15:10 found 0 occurrence(s) of 0 in syntaxtest.go
+
+C:\Users\Alex\go\src\Syntax>manbearpig -import Syntax -mutation empty
+2018/12/14 18:15:14 mutating in C:\Users\Alex\AppData\Local\Temp\manbearpig365225523
+2018/12/14 18:15:14 found 0 occurrence(s) of  in syntax.go
+2018/12/14 18:15:14 found 0 occurrence(s) of  in syntaxtest.go

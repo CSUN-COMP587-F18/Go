@@ -1,0 +1,29 @@
+
+C:\Users\Alex\go\src\higherorderfunc>manbearpig -import higherOrderfunc -mutation ==
+2018/12/04 12:15:08 mutating in C:\Users\Alex\AppData\Local\Temp\manbearpig585550267
+2018/12/04 12:15:08 found 0 occurrence(s) of == in HighOrderFunc.go
+2018/12/04 12:15:08 found 0 occurrence(s) of == in HighOrderFuncTest.go
+
+
+
+C:\Users\Alex\go\src\higherorderfunc>manbearpig -import higherOrderfunc -mutation !=
+2018/12/04 12:15:58 mutating in C:\Users\Alex\AppData\Local\Temp\manbearpig816880631
+2018/12/04 12:15:58 found 0 occurrence(s) of != in HighOrderFunc.go
+2018/12/04 12:15:58 found 2 occurrence(s) of != in HighOrderFuncTest.go
+2018/12/04 12:15:58 mutating != to ==
+2018/12/04 12:15:59 mutation 1 created an error: .\HighOrderFuncTest.go:29:3: undefined: t
+2018/12/04 12:15:59 mutation 2 created an error: .\HighOrderFuncTest.go:29:3: undefined: t
+
+
+
+C:\Users\Alex\go\src\higherorderfunc>manbearpig -import higherOrderfunc -mutation 0
+2018/12/04 12:22:06 mutating in C:\Users\Alex\AppData\Local\Temp\manbearpig616179599
+2018/12/04 12:22:06 found 0 occurrence(s) of 0 in HighOrderFunc.go
+2018/12/04 12:22:06 found 0 occurrence(s) of 0 in HighOrderFuncTest.go
+
+
+
+C:\Users\Alex\go\src\higherorderfunc>manbearpig -import higherOrderfunc -mutation empty
+2018/12/04 12:22:28 mutating in C:\Users\Alex\AppData\Local\Temp\manbearpig806683739
+2018/12/04 12:22:28 found 0 occurrence(s) of  in HighOrderFunc.go
+2018/12/04 12:22:28 found 0 occurrence(s) of  in HighOrderFuncTest.go

@@ -1,0 +1,21 @@
+C:\Users\Alex\go\src\SpeedOfGoLang>manbearpig -import SpeedOfGoLang -mutation ==
+2018/12/14 17:55:43 mutating in C:\Users\Alex\AppData\Local\Temp\manbearpig729406015
+2018/12/14 17:55:43 found 0 occurrence(s) of == in benchspeed.go
+2018/12/14 17:55:43 found 0 occurrence(s) of == in benchspeedtest.go
+
+C:\Users\Alex\go\src\SpeedOfGoLang>manbearpig -import SpeedOfGoLang -mutation !=
+2018/12/14 17:55:48 mutating in C:\Users\Alex\AppData\Local\Temp\manbearpig453372651
+2018/12/14 17:55:48 found 0 occurrence(s) of != in benchspeed.go
+2018/12/14 17:55:48 found 0 occurrence(s) of != in benchspeedtest.go
+
+C:\Users\Alex\go\src\SpeedOfGoLang>manbearpig -import SpeedOfGoLang -mutation 0
+2018/12/14 17:55:51 mutating in C:\Users\Alex\AppData\Local\Temp\manbearpig025172947
+2018/12/14 17:55:51 found 1 occurrence(s) of 0 in benchspeed.go
+2018/12/14 17:55:51 mutating 0 to 1
+2018/12/14 17:55:52 mutation 1 failed to break any tests
+2018/12/14 17:55:52 found 0 occurrence(s) of 0 in benchspeedtest.go
+
+C:\Users\Alex\go\src\SpeedOfGoLang>manbearpig -import SpeedOfGoLang -mutation empty
+2018/12/14 17:56:00 mutating in C:\Users\Alex\AppData\Local\Temp\manbearpig409549603
+2018/12/14 17:56:00 found 0 occurrence(s) of  in benchspeed.go
+2018/12/14 17:56:00 found 0 occurrence(s) of  in benchspeedtest.go
